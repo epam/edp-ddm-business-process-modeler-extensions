@@ -61,6 +61,24 @@
       }
     },
     {
+      "label": "X-Digital-Signature source",
+      "description": "Ceph key of the document containing X-Digital-Signature",
+      "type": "String",
+      "binding": {
+        "type": "camunda:inputParameter",
+        "name": "x_digital_signature_ceph_key"
+      }
+    },
+    {
+      "label": "X-Digital-Signature-Derived source",
+      "description": "Ceph key of document that contains X-Digital-Signature-Derived",
+      "type": "String",
+      "binding": {
+        "type": "camunda:inputParameter",
+        "name": "x_digital_signature_derived_ceph_key"
+      }
+    },
+    {
       "label": "Result variable",
       "description": "The process variable to put response to (transient)",
       "type": "String",
