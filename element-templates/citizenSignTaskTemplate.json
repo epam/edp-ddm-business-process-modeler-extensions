@@ -72,7 +72,18 @@
     {
       "label": "INDIVIDUAL",
       "description": "Individual validation",
-      "type": "Boolean",
+      "type": "Dropdown",
+      "value": "false",
+      "choices": [
+        {
+          "name": "enable",
+          "value": "true"
+        },
+        {
+          "name": "disable",
+          "value": "false"
+        }
+      ],
       "binding": {
         "type": "camunda:property",
         "name": "INDIVIDUAL"
@@ -81,7 +92,18 @@
     {
       "label": "ENTREPRENEUR",
       "description": "Entrepreneur validation",
-      "type": "Boolean",
+      "type": "Dropdown",
+      "value": "false",
+      "choices": [
+        {
+          "name": "enable",
+          "value": "true"
+        },
+        {
+          "name": "disable",
+          "value": "false"
+        }
+      ],
       "binding": {
         "type": "camunda:property",
         "name": "ENTREPRENEUR"
@@ -90,7 +112,18 @@
     {
       "label": "LEGAL",
       "description": "Legal validation",
-      "type": "Boolean",
+      "type": "Dropdown",
+      "value": "false",
+      "choices": [
+        {
+          "name": "enable",
+          "value": "true"
+        },
+        {
+          "name": "disable",
+          "value": "false"
+        }
+      ],
       "binding": {
         "type": "camunda:property",
         "name": "LEGAL"
