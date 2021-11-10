@@ -1,6 +1,10 @@
 # business-process-modeler-extensions
 
-Camunda Modeler extensions (plugins and element templates)
+### Overview
+
+* Camunda Modeler extensions (plugins and element templates)
+
+### Usage
 
 #### Example Setup
 
@@ -14,9 +18,10 @@ Camunda Modeler extensions (plugins and element templates)
 For local template discovery, create a `.camunda` folder relative in the directory
 or any parent directory of the diagrams you are editing and copy `element-templates` and `plugins` there.
 
-#### Element-templates
+#### Applying element-templates
 
-1.Element template extension for digital signature delegate by DSO:
+Example of element template extension for digital signature delegate by DSO:
+
 - Make sure that element-templates folder contain *digitalSignatureConnectorDelegate.json*.
 - In the `Service Task`, click the `Open Catalog` button, then select this template.
 - Fill in the `Payload` field - data to sign.
@@ -26,3 +31,8 @@ or any parent directory of the diagrams you are editing and copy `element-templa
   | Transient content          |
   |:---------------------------|
   | The output parameter is transient, so in an expression language it can use only in the input / output ratios.|
+
+### License
+
+The business-process-modeler-extensions is released under version 2.0 of
+the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
