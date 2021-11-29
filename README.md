@@ -8,12 +8,8 @@
 
 #### Example Setup
 
-1. Go [`here`](https://nexus-mdtu-ddm-edp-cicd.apps.cicd2.mdtu-ddm.projects.epam.com/#browse/browse:extensions)
-2. Find `business-process-modeler-extensions` folder
-3. There will be a list of folders named as `version.build` (e.g. 0.0.1-SNAPSHOT.12). Choose a folder with latest version.
-4. Choose .zip file in opened folder
-5. On `Summary` tab on the right click on `Path` link. It will start zip downloading. 
-6. Unpack with replacement downloaded zip file in the `resources` sub-folder of your local `{APP_DATA_DIRECTORY}` (where application stored) or [`{USER_DATA_DIRECTORY}`](https://github.com/camunda/camunda-modeler/tree/master/docs/search-paths#user-data-directory) directory.
+1. Download `business-process-modeler-extensions` folder with the latest version.
+2. Copy with replacement folder contents in the `resources` sub-folder of your local `{APP_DATA_DIRECTORY}` (where application stored) or [`{USER_DATA_DIRECTORY}`](https://github.com/camunda/camunda-modeler/tree/master/docs/search-paths#user-data-directory) directory.
 
 For local template discovery, create a `.camunda` folder relative in the directory
 or any parent directory of the diagrams you are editing and copy `element-templates` and `plugins` there.
