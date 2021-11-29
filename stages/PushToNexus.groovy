@@ -14,7 +14,7 @@ class PushToNexus {
                     nexusVersion: 'nexus3',
                     protocol: 'http',
                     nexusUrl: "${context.nexus.host}:${context.nexus.port}",
-                    groupId: 'ua.gov.mdtu.ddm.lowcode',
+                    groupId: 'com.epam.digital.data.platform',
                     version: context.codebase.version,
                     repository: 'extensions',
                     credentialsId: 'ci.user',
