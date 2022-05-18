@@ -1,6 +1,6 @@
 {
-  "name": "Update entity in data factory partially",
-  "id": "dataFactoryConnectorPartialUpdateDelegate",
+  "name": "Connect to data factory",
+  "id": "dataFactoryConnectorDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"
   ],
@@ -8,7 +8,7 @@
     {
       "label": "Implementation Type",
       "type": "Hidden",
-      "value": "${dataFactoryConnectorPartialUpdateDelegate}",
+      "value": "${dataFactoryConnectorDelegate}",
       "editable": false,
       "binding": {
         "type": "property",
@@ -16,56 +16,48 @@
       }
     },
     {
-      "label": "Resource",
-      "description": "Resource type",
-      "type": "String",
+      "label": "Method",
+      "description": "HTTP method. (String)",
       "binding": {
         "type": "camunda:inputParameter",
-        "name": "resource"
-      },
-      "constraints": {
-        "notEmpty": true
+        "name": "methodParameter"
       }
     },
     {
-      "label": "Resource id",
-      "type": "String",
+      "label": "Path",
+      "description": "Path of the data factory resource. (String)",
       "binding": {
         "type": "camunda:inputParameter",
-        "name": "id"
-      },
-      "constraints": {
-        "notEmpty": true
+        "name": "path"
+      }
+    },
+    {
+      "label": "Request parameters",
+      "description": "Map of the request parameters.",
+      "binding": {
+        "type": "camunda:inputParameter",
+        "name": "payload"
       }
     },
     {
       "label": "Payload",
       "description": "Request body",
-      "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
         "name": "payload"
-      },
-      "constraints": {
-        "notEmpty": true
       }
     },
     {
       "label": "X-Access-Token",
       "description": "Access token of the user<br/>(${initiator().accessToken or completer('taskDefinitionId').accessToken})",
-      "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
         "name": "x_access_token"
-      },
-      "constraints": {
-        "notEmpty": true
       }
     },
     {
       "label": "X-Digital-Signature source",
       "description": "Ceph key of the document containing X-Digital-Signature<br/>(${sign_submission('signTaskDefinitionId').signatureDocumentId})",
-      "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
         "name": "x_digital_signature_ceph_key"
@@ -74,7 +66,6 @@
     {
       "label": "X-Digital-Signature-Derived source",
       "description": "Ceph key of document that contains X-Digital-Signature-Derived<br/>(${execution.getVariable(\"secure-sys-var-ref-task-form-data-{taskDefinitionId}\")})",
-      "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
         "name": "x_digital_signature_derived_ceph_key"
@@ -83,14 +74,10 @@
     {
       "label": "Result variable",
       "description": "The process variable to put response to (transient)",
-      "type": "String",
       "value": "response",
       "binding": {
         "type": "camunda:outputParameter",
         "source": "${ response }"
-      },
-      "constraints": {
-        "notEmpty": true
       }
     }
   ]
