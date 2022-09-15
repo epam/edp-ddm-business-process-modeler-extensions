@@ -1,5 +1,5 @@
 {
-  "name": "Create or Update user settings",
+  "name": "[DEPRECATED] Create or Update user settings",
   "id": "userSettingsConnectorUpdateDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"
