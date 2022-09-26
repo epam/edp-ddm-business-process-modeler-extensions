@@ -1,5 +1,5 @@
 {
-   "name":"System digital signature",
+   "name":"[DEPRECATED] System digital signature",
    "id":"systemDigitalSignatureCallActivity",
    "appliesTo":[
       "bpmn:CallActivity"
