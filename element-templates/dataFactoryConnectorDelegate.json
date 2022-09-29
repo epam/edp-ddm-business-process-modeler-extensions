@@ -17,7 +17,27 @@
     },
     {
       "label": "Method",
-      "description": "HTTP method. (String)",
+      "description": "HTTP method.",
+      "type": "Dropdown",
+      "value": "GET",
+      "choices": [
+        {
+          "name": "GET",
+          "value": "GET"
+        },
+        {
+          "name": "POST",
+          "value": "POST"
+        },
+        {
+          "name": "PUT",
+          "value": "PUT"
+        },
+        {
+          "name": "PATCH",
+          "value": "PATCH"
+        }
+      ],
       "binding": {
         "type": "camunda:inputParameter",
         "name": "methodParameter"
