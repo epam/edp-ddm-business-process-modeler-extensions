@@ -28,8 +28,28 @@
       }
     },
     {
+      "label": "Upload type",
+      "description": "Data upload type.",
+      "type": "Dropdown",
+      "value": "LIST",
+      "choices": [
+        {
+          "name": "LIST",
+          "value": "LIST"
+        },
+        {
+          "name": "CSV",
+          "value": "CSV"
+        }
+      ],
+      "binding": {
+        "type": "camunda:inputParameter",
+        "name": "uploadType"
+      }
+    },
+    {
       "label": "Payload",
-      "description": "Request body(JSON array)",
+      "description": "Request body",
       "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
