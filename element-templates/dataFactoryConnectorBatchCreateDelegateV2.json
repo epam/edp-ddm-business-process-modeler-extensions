@@ -1,5 +1,5 @@
 {
-  "name": "Batch creation of entities in data factory",
+  "name": "Batch creation of entities in data factory v2",
   "id": "dataFactoryConnectorBatchCreateDelegateV2",
   "appliesTo": [
     "bpmn:ServiceTask"
