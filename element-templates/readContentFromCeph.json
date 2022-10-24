@@ -1,5 +1,5 @@
 {
-  "name": "Read content from Ceph",
+  "name": "[DEPRECATED] Read content from Ceph",
   "id": "getContentFromCephDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"

@@ -1,5 +1,5 @@
 {
-  "name": "Put user task form data prepopulation to Ceph",
+  "name": "[DEPRECATED] Put user task form data prepopulation to Ceph",
   "id": "putFormDataToCephDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"

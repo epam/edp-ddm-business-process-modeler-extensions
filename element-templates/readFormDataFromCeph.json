@@ -1,5 +1,5 @@
 {
-  "name": "Read user task form data from Ceph",
+  "name": "[DEPRECATED] Read user task form data from Ceph",
   "id": "getFormDataFromCephDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"

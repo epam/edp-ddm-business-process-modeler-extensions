@@ -1,5 +1,5 @@
 {
-  "name": "Put content to Ceph",
+  "name": "[DEPRECATED] Put content to Ceph",
   "id": "putContentToCephDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"
