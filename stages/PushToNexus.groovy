@@ -16,7 +16,7 @@ class PushToNexus {
                     nexusUrl: "${context.nexus.host}:${context.nexus.port}",
                     groupId: 'com.epam.digital.data.platform',
                     version: context.codebase.version,
-                    repository: 'extensions',
+                    repository: 'edp-maven-releases',
                     credentialsId: 'ci.user',
                     artifacts: [
                             [artifactId: "business-process-modeler-extensions",
