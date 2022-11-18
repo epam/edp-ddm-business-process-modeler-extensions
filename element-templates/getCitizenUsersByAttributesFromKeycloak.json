@@ -16,19 +16,16 @@
       }
     },
     {
-      "label": "Edrpou attribute value (required)",
-      "description": "Keycloak edrpou attribute value.",
+      "label": "Edrpou attribute value",
+      "description": "Keycloak edrpou attribute value. Don't participate in filtration if not specified.",
       "type": "String",
       "binding": {
         "type": "camunda:inputParameter",
         "name": "edrpou"
-      },
-      "constraints": {
-        "notEmpty": true
       }
     },
     {
-      "label": "Drfo attribute value (optional)",
+      "label": "Drfo attribute value",
       "description": "Keycloak drfo attribute value. Don't participate in filtration if not specified.",
       "type": "String",
       "binding": {
