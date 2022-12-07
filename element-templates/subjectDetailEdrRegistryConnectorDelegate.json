@@ -16,17 +16,6 @@
       }
     },
     {
-      "label": "Authorization Token",
-      "type": "String",
-      "binding": {
-        "type": "camunda:inputParameter",
-        "name": "authorizationToken"
-      },
-      "constraints": {
-        "notEmpty": true
-      }
-    },
-    {
       "label": "Id",
       "description": "Subject Id",
       "type": "String",

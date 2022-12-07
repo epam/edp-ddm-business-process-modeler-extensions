@@ -16,17 +16,6 @@
       }
     },
     {
-      "label": "Authorization Token",
-      "type": "String",
-      "binding": {
-        "type": "camunda:inputParameter",
-        "name": "authorizationToken"
-      },
-      "constraints": {
-        "notEmpty": true
-      }
-    },
-    {
       "label": "Code",
       "description": "ЄДРПОУ для юридичних осіб або ІПН для фізичної особи (Optional)",
       "type": "String",
