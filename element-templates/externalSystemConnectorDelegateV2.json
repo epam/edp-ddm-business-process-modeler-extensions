@@ -1,6 +1,6 @@
 {
-  "name": "[DEPRECATED] Connect to external system",
-  "id": "externalSystemConnectorDelegate",
+  "name": "Connect to external system v2",
+  "id": "externalSystemConnectorDelegateV2",
   "appliesTo": [
     "bpmn:ServiceTask"
   ],
@@ -24,11 +24,11 @@
       }
     },
     {
-      "label": "External system method name",
-      "description": "Name of the target external system method",
+      "label": "External system operation name",
+      "description": "Name of the target external system operation",
       "binding": {
         "type": "camunda:inputParameter",
-        "name": "methodName"
+        "name": "operationName"
       }
     },
     {
