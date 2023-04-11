@@ -1,5 +1,5 @@
 {
-  "name": "Get extended officer users by attributes from keycloak",
+  "name": "[DEPRECATED] Get extended officer users by attributes from keycloak",
   "id": "keycloakGetExtendedOfficerUsersByAttributesConnectorDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"

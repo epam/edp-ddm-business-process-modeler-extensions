@@ -1,5 +1,5 @@
 {
-  "name": "Get officer users from Keycloak by attributes (inverse start with, equals) ",
+  "name": "[DEPRECATED] Get officer users from Keycloak by attributes (inverse start with, equals) ",
   "id": "keycloakGetOfficerUsersByAttributesEqualsAndStartWith",
   "appliesTo": [
     "bpmn:ServiceTask"

@@ -1,5 +1,5 @@
 {
-  "name": "Get citizen users by attributes from keycloak",
+  "name": "[DEPRECATED] Get citizen users by attributes from keycloak",
   "id": "keycloakGetCitizenUsersByAttributesConnectorDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"
