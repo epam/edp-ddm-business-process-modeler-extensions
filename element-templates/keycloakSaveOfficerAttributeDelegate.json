@@ -1,5 +1,5 @@
 {
-  "name": "Save Officer Attribute To Keycloak",
+  "name": "[DEPRECATED] Save Officer Attribute To Keycloak",
   "id": "keycloakSaveOfficerAttributeDelegate",
   "appliesTo": [
     "bpmn:ServiceTask"

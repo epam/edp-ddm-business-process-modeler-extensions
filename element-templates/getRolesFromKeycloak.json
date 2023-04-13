@@ -1,5 +1,5 @@
 {
-  "name": "Get roles from keycloak",
+  "name": "[DEPRECATED] Get roles from keycloak",
   "id": "getRolesFromKeycloak",
   "appliesTo": [
     "bpmn:ServiceTask"
