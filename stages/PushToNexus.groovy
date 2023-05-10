@@ -13,7 +13,7 @@ class PushToNexus {
             script.nexusArtifactUploader(
                     nexusVersion: 'nexus3',
                     protocol: 'http',
-                    nexusUrl: "${context.nexus.host}:${context.nexus.port}",
+                    nexusUrl: "${context.nexus.host}:${context.nexus.port}/nexus",
                     groupId: 'com.epam.digital.data.platform',
                     version: context.codebase.version,
                     repository: 'edp-maven-releases',
