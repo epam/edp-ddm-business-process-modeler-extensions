@@ -1,3 +1,0 @@
-******* xref:business-process-modeler-extensions:summary.adoc[Каталог типових розширень для моделювання бізнес-процесів]
-******** xref:business-process-modeler-extensions:development.adoc[Розробка типових розширень]
-******** xref:business-process-modeler-extensions:integration-connectors.adoc[Інтеграційні розширення]
