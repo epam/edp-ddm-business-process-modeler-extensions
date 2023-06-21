@@ -29,6 +29,26 @@
       }
     },
     {
+      "label": "Realm",
+      "description": "Keycloak realm",
+      "type": "Dropdown",
+      "value": "citizen",
+      "choices": [
+        {
+          "name": "OFFICER",
+          "value": "officer"
+        },
+        {
+          "name": "CITIZEN",
+          "value": "citizen"
+        }
+      ],
+      "binding": {
+        "type": "camunda:inputParameter",
+        "name": "notificationRecipientRealm"
+      }
+    },
+    {
       "label": "Notification message template",
       "description": "Notification message template <br/>(<registry-regulation>/notifications/<channel>/<template_name>/*.*)",
       "type": "String",
